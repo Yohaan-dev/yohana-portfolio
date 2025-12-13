@@ -12,7 +12,7 @@ const Testimonials = () => {
                   <img className='rounded-full w-52 h-52' src="./testimonials.jpg" alt="testimonial image" />
               </div>
               <div className='flex flex-col md:items-start'>
-                  <h2 className='text-white font-serif text-center text-lg'>"We are absolutely thrilled with Yohana's work! her <br />responsiveness.friendliness and expertise are truly exceptional."</h2>
+                  <h2 className='text-white font-serif text-center text-lg'>"We are absolutely thrilled with Yohana's work! his <br />responsiveness.friendliness and expertise are truly exceptional."</h2>
                   <p className='text-amber-600 mt-6 font-serif text-center'>Isabella Miller</p>
                   <p className='text-white font-serif text-center'>SoftWare Developer | Spotify</p>
               </div>

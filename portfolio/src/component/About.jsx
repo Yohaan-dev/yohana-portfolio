@@ -10,7 +10,7 @@ const About = () => {
           <div className='max-w-5xl mx-auto p-4 relative z-10'>
               <div className='flex flex-col md:flex-row gap-4 items-center justify-between'>
                   <div className='mb-4'>
-                      <img className='w-72 h-72 rounded-md object-contain' src="/linkedIn-Portfolio.jpeg" alt="about image" />
+                      <img className='w-72 h-72 rounded-md object-contain' src="./linkedIn-Portfolio.jpeg" alt="about image" />
                   </div>
                   <div className='flex flex-col space-y-3 items-center md:items-end md:text-right'>
                       <h1 className='text-white font-serif text-4xl'>Yohana Kipruto.</h1>
