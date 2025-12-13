@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  padding-top: 64px;
+  background: #000;
+  position: relative;
+}
+
+section.about {
+  background-image: url('/linkedIn-Portfolio.jpeg');
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  position: relative;
+  min-height: 60vh;
+  overflow: hidden;
+}
+
+.service {
+  background-image: url('/codereview1.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  position: relative;
+  min-height: 40vh;
+  overflow: hidden;
+}
+
+.service3 {
+  background-image: url('/codereview3.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  position: relative;
+  min-height: 40vh;
+  overflow: hidden;
+}
+
