@@ -11,7 +11,6 @@ const Contacts = () => {
     const [success, setSuccess] = useState(false);
     const handleSubmit = (e) => {
         e.preventDefault();
-        //console.log({name, email, subject, message, success})
         setSuccess(true);
 
         //Clear Form Fields
@@ -87,8 +86,7 @@ const Contacts = () => {
                   </div>
                       <button className='rounded-full text-white font-serif bg-amber-600 px-3 py-1 hover:bg-amber-500 flex items-center gap-2 w-fit'>Send Message</button>
                   </form>
-                   <SuccessToast message="Form submitted successfully!" show={success} onClose={() => setSuccess(false)}
-      />
+                   <SuccessToast message="Form submitted successfully!" show={success} onClose={() => setSuccess(false)}/>
               </div>
           </div>
     </section>

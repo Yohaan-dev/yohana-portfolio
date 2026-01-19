@@ -10,7 +10,7 @@ const Services = () => {
               <p className='text-white font-serif max-w-md text-center'>I provide tailored solutions,insights,and guidance to meet needs,ensuring their success and satisfaction in various endeavors.</p>
           </div>
           <div className='max-w-7xl flex md:flex-row flex-col items-center justify-center md:justify-between my-10 gap-6 px-6'>
-              <div className='rounded-md bg-zinc-800/80 '>
+              <div className='border-l-blue-900 border-l-4 rounded-md bg-zinc-800/80 '>
                   <div className='service1 w-full min-h-[40vh] rounded-t-md bg-cover bg-center bg-fixed'
                   style={{ backgroundImage: `url(${Services1})` }}
                   >
@@ -19,7 +19,7 @@ const Services = () => {
                   <p className='font-serif text-white p-4'>Crafting captivating online experiences through innovative<br/>design,user-centric interfaces,and seamless functionality.</p>
               </div>
 
-              <div className='rounded-md bg-zinc-800/80 '>
+              <div className='border-l-blue-900 border-l-4 rounded-md bg-zinc-800/80 '>
                   <div className='service3 w-full min-h-[40vh] rounded-t-md bg-cover bg-center bg-fixed'
                   style={{ backgroundImage: `url(${Services3})` }}
                   >
