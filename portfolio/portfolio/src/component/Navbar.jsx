@@ -14,12 +14,12 @@ const Navbar = () => {
                   <h1 className='text-2xl text-white font-serif hidden md:block'>Yohana Kipruto</h1>
                   <button onClick={()=> setOpen((prevState)=> !prevState)} className='md:hidden'>{ open? <X size={25} /> : <Menu size={25} /> }</button>
                   <div className='hidden md:flex flex-col md:flex-row gap-6 items-center my-4'>
-                      <a href="#home" className='hover:text-amber-600 transition duration-300 text-sm'>HOME</a>
-                      <a href="#about" className='hover:text-amber-600 transition duration-300 text-sm'>ABOUT</a>
-                      <a href="#services" className='hover:text-amber-600 transition duration-300 text-sm'>SERVICES</a>
-                      <a href="#portfolio" className='hover:text-amber-600 transition duration-300 text-sm'>MY RESUME</a>
-                      <a href="#testimonials" className='hover:text-amber-600 transition duration-300 text-sm'>TESTIMONIALS</a>
-                      <a href="#contact" className='hover:text-amber-600 transition duration-300 text-sm'>CONTACT ME</a>
+                      <a href="#home" className='hover:text-amber-600 transition duration-300'>home</a>
+                      <a href="#about" className='hover:text-amber-600 transition duration-300'>about</a>
+                      <a href="#services" className='hover:text-amber-600 transition duration-300'>services</a>
+                      <a href="#portfolio" className='hover:text-amber-600 transition duration-300'>portfolio</a>
+                      <a href="#testimonials" className='hover:text-amber-600 transition duration-300'>testimonials</a>
+                      <a href="#contact" className='hover:text-amber-600 transition duration-300'>contact</a>
                   </div>
                    <div className="social-icons hidden md:flex md:flex-row gap-4 items-center justify-center rounded-md bg-gray-700/20 px-4 p-2">
                        <a href="https://youtube.com" target="_blank" rel="noreferrer" className='hover:scale-110 transition duration-300'>
@@ -38,12 +38,12 @@ const Navbar = () => {
                   {open && (
                       <>
                       <div className='flex flex-col md:flex-row gap-6 items-center my-4'>
-                      <a href="#home" className='hover:text-amber-600 transition duration-300 text-sm'>HOME</a>
-                      <a href="#about" className='hover:text-amber-600 transition duration-300 text-sm'>ABOUT</a>
-                      <a href="#services" className='hover:text-amber-600 transition duration-300 text-sm'>SERVICES</a>
-                      <a href="#portfolio" className='hover:text-amber-600 transition duration-300 text-sm'>MY RESUME</a>
-                      <a href="#testimonials" className='hover:text-amber-600 transition duration-300 text-sm'>TESTIMONIALS</a>
-                      <a href="#contact" className='hover:text-amber-600 transition duration-300 text-sm'>CONTACT ME</a>
+                      <a href="#home" className='hover:text-amber-600 transition duration-300'>home</a>
+                      <a href="#about" className='hover:text-amber-600 transition duration-300'>about</a>
+                      <a href="#services" className='hover:text-amber-600 transition duration-300'>services</a>
+                      <a href="#portfolio" className='hover:text-amber-600 transition duration-300'>portfolio</a>
+                      <a href="#testimonials" className='hover:text-amber-600 transition duration-300'>testimonials</a>
+                      <a href="#contact" className='hover:text-amber-600 transition duration-300'>contact</a>
                       </div>
                       <div className="social-icons flex md:flex-row gap-4 items-center justify-center rounded-md bg-gray-700/20 px-4 p-2">
                        <a href="https://youtube.com" target="_blank" rel="noreferrer" className='hover:scale-110 transition duration-300'>

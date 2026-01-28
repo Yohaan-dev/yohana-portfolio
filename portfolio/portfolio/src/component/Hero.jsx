@@ -1,6 +1,5 @@
 import React from 'react'
 import { ArrowRightIcon } from '@heroicons/react/24/solid';
-import heroImage from '../assets/images/portfolio-Image.png'
 
 const Hero = () => {
   return (
@@ -11,12 +10,10 @@ const Hero = () => {
                       <h1 className='text-amber-600 font-serif'>hey, i am yohana.</h1>
                       <p className='text-white text-3xl font-serif'>I build & Design <br /> Web Interfaces.</p>
                       <p className='text-white font-serif text-w-sm'>Blending design finesse and technical expertise to build visually captivating and functional websites</p>
-                      <button><a className='rounded-full text-white font-serif bg-amber-600 px-4 py-2 hover:bg-amber-500 flex items-center gap-2 w-fit' href="#contact">Get in touch<ArrowRightIcon className="w-4 h-4 text-white" /></a></button>
+                      <button className='rounded-full text-white font-serif bg-amber-600 px-3 py-1 hover:bg-amber-500 flex items-center gap-2 w-fit'>Get in touch<ArrowRightIcon className="w-4 h-4 text-white" /></button>
                   </div>
                   <div className='w-1/2'>
-                      <img className='rounded-md w-96 h-96 object-contain'
-                          src={heroImage}
-                          alt="hero image" />
+                  <img className='rounded-md w-96 h-96 object-contain' src="./portfolio-Image.png" alt="hero image" />
                   </div>
               </div>
           </div>

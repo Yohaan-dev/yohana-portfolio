@@ -1,18 +1,16 @@
 import React from 'react'
-import AboutImage from '../assets/images/linkedIn-Portfolio.jpeg'
 
 const About = () => {
   return (
-      <section className='about w-full my-20 py-20 min-h-[60vh] bg-cover bg-center bg-fixed'
-      style={{ backgroundImage: `url(${AboutImage})` }}
-      >
+     <section className='about w-full my-20 py-20'>
+          {/* dark overlay */}
+          <div className='absolute inset-0 bg-gradient-to-l from-black/80 via-black/60 to-black/20 pointer-events-none'></div>
+
           {/* content container */}
           <div className='max-w-5xl mx-auto p-4 relative z-10'>
               <div className='flex flex-col md:flex-row gap-4 items-center justify-between'>
                   <div className='mb-4'>
-                      <img className='w-72 h-72 rounded-md object-contain'
-                          src={AboutImage}
-                          alt="about image" />
+                      <img className='w-72 h-72 rounded-md object-contain' src="./linkedIn-Portfolio.jpeg" alt="about image" />
                   </div>
                   <div className='flex flex-col space-y-3 items-center md:items-end md:text-right'>
                       <h1 className='text-white font-serif text-4xl'>Yohana Kipruto.</h1>
